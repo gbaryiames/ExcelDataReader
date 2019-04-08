@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace ExcelDataReader.Core.CsvFormat
+namespace CrimsonTree.ExcelDataReader.Core.CsvFormat
 {
     internal static class CsvAnalyzer
     {
@@ -28,23 +28,24 @@ namespace ExcelDataReader.Core.CsvFormat
             {
                 separators = new char[] { '\0' };
             }
-			else if (separators.Length == 1)
-            {
-	            autodetectSeparator = separators[0];
-	            fieldCount = -1;
-	            rowCount = -1;
-	            return;
-            }
-			
 
-            var separatorInfos = new SeparatorInfo[separators.Length];
+			var separatorInfos = new SeparatorInfo[separators.Length];
             for (var i = 0; i < separators.Length; i++)
             {
                 separatorInfos[i] = new SeparatorInfo();
                 separatorInfos[i].Buffer = new CsvParser(separators[i], autodetectEncoding);
-            }
+			}
 
-            ParseSeparatorsBuffer(buffer, bomLength, bytesRead - bomLength, separators, separatorInfos);
+	        if (separators.Length == 1)
+	        {
+		        AnalyzeBeginRowsOfData(stream, buffer, bytesRead, bomLength, separators, separatorInfos);
+				autodetectSeparator = separators[0];
+		        fieldCount = separatorInfos[0].MaxFieldCount;
+		        rowCount = -1;
+		        return;
+	        }
+
+			ParseSeparatorsBuffer(buffer, bomLength, bytesRead - bomLength, separators, separatorInfos);
 
             while (stream.Position < stream.Length)
             {
@@ -84,6 +85,25 @@ namespace ExcelDataReader.Core.CsvFormat
             fieldCount = bestSeparatorInfo.MaxFieldCount;
             rowCount = bestSeparatorInfo.RowCount;
         }
+
+	    private static void AnalyzeBeginRowsOfData(Stream inputStream, byte[] buffer, int initialBytesRead, int bomLength, char[] separators, SeparatorInfo[] separatorInfos)
+	    {
+		    ParseSeparatorsBuffer(buffer, bomLength, initialBytesRead - bomLength, separators, separatorInfos);
+		    if (separatorInfos[0].RowCount > 0)
+		    {
+			    return;
+		    }
+
+			while (inputStream.Position < inputStream.Length)
+		    {
+			    var bytesRead = inputStream.Read(buffer, 0, buffer.Length);
+			    ParseSeparatorsBuffer(buffer, 0, bytesRead, separators, separatorInfos);
+			    if (separatorInfos[0].RowCount > 0)
+			    {
+				    return;
+			    }
+		    }
+		}
 
         private static void ParseSeparatorsBuffer(byte[] bytes, int offset, int count, char[] separators, SeparatorInfo[] separatorInfos)
         {
