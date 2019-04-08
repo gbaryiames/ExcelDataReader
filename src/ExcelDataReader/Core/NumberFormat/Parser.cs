@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace ExcelDataReader.Core.NumberFormat
+namespace CrimsonTree.ExcelDataReader.Core.NumberFormat
 {
     internal static class Parser
     {

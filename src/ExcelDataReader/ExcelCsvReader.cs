@@ -1,8 +1,8 @@
 ﻿using System.IO;
 using System.Text;
-using ExcelDataReader.Core.CsvFormat;
+using CrimsonTree.ExcelDataReader.Core.CsvFormat;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     internal class ExcelCsvReader : ExcelDataReader<CsvWorkbook, CsvWorksheet>
     {

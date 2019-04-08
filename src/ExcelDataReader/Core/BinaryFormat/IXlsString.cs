@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     internal interface IXlsString
     {

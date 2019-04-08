@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// Plain string without backing storage. Used internally

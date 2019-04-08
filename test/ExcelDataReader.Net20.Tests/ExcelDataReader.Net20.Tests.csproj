@@ -6,6 +6,7 @@
     <AssemblyName>ExcelDataReader.Net20.Tests</AssemblyName>
     <PackageId>ExcelDataReader.Net20.Tests</PackageId>
     <CodeAnalysisRuleSet>..\..\ExcelDataReader.ruleset</CodeAnalysisRuleSet>
+    <RootNamespace>CrimsonTree.ExcelDataReader.Net20.Tests</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>TRACE;DEBUG;NET45;EXCELDATAREADER_NET20</DefineConstants>
@@ -33,12 +34,10 @@
       Workaround to reference ExcelDataReader's net20 dlls from tests targeting net45, 
       the minimum supported test runner framework.
     -->
-    <ProjectReference Include="..\..\src\ExcelDataReader\ExcelDataReader.csproj">
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="..\..\src\ExcelDataReader.DataSet\ExcelDataReader.DataSet.csproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\..\src\ExcelDataReader\ExcelDataReader.csproj" />
     <Reference Include="ExcelDataReader">
       <HintPath>..\..\src\ExcelDataReader\bin\$(Configuration)\net20\ExcelDataReader.dll</HintPath>
     </Reference>

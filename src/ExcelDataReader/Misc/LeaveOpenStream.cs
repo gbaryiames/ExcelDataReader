@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace ExcelDataReader.Misc
+namespace CrimsonTree.ExcelDataReader.Misc
 {
     internal class LeaveOpenStream : Stream
     {

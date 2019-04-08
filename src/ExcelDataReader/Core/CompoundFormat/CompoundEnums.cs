@@ -1,4 +1,4 @@
-﻿namespace ExcelDataReader.Core.CompoundFormat
+﻿namespace CrimsonTree.ExcelDataReader.Core.CompoundFormat
 {
     internal enum STGTY : byte
     {

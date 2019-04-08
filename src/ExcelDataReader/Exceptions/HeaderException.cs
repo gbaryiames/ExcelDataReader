@@ -3,7 +3,7 @@ using System;
 using System.Runtime.Serialization;
 #endif
 
-namespace ExcelDataReader.Exceptions
+namespace CrimsonTree.ExcelDataReader.Exceptions
 {
     /// <summary>
     /// Thrown when ExcelDataReader cannot parse the header

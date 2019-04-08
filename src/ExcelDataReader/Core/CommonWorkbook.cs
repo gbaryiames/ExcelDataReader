@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using ExcelDataReader.Core.NumberFormat;
+using CrimsonTree.ExcelDataReader.Core.NumberFormat;
 
-namespace ExcelDataReader.Core
+namespace CrimsonTree.ExcelDataReader.Core
 {
     /// <summary>
     /// Common handling of extended formats (XF) and mappings between file-based and global number format indices.

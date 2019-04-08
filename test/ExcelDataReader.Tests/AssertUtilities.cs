@@ -3,7 +3,7 @@ using System.Data;
 
 using NUnit.Framework;
 
-namespace ExcelDataReader.Tests
+namespace CrimsonTree.ExcelDataReader.Tests
 {
     public static class AssertUtilities
     {

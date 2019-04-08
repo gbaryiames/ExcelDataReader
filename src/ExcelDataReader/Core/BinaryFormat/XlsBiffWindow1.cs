@@ -1,6 +1,6 @@
 using System;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// Represents Workbook's global window description

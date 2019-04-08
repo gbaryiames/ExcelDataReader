@@ -1,6 +1,6 @@
 ﻿using System.Xml;
 
-namespace ExcelDataReader.Core
+namespace CrimsonTree.ExcelDataReader.Core
 {
     internal static class XmlReaderHelper
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExcelDataReader.Log
+namespace CrimsonTree.ExcelDataReader.Log
 {
     /// <summary>
     /// Custom interface for logging messages

@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     public class DataColumnCollection : IEnumerable<DataColumn>
     {

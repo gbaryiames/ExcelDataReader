@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// Helper class for parsing the BIFF8 Shared String Table (SST)

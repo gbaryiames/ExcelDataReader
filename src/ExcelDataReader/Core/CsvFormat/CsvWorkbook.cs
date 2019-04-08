@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace ExcelDataReader.Core.CsvFormat
+namespace CrimsonTree.ExcelDataReader.Core.CsvFormat
 {
     internal class CsvWorkbook : IWorkbook<CsvWorksheet>
     {

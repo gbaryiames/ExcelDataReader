@@ -1,7 +1,7 @@
 ﻿using System;
-using ExcelDataReader.Log.Logger;
+using CrimsonTree.ExcelDataReader.Log.Logger;
 
-namespace ExcelDataReader.Log
+namespace CrimsonTree.ExcelDataReader.Log
 {
     /// <summary>
     /// logger type initialization

@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// Word-sized string, stored as single bytes with encoding from CodePage record. Used in BIFF2-5 

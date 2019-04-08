@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ExcelDataReader.Core.OpenXmlFormat
+namespace CrimsonTree.ExcelDataReader.Core.OpenXmlFormat
 {
     internal class XlsxMergeCells : XlsxElement
     {

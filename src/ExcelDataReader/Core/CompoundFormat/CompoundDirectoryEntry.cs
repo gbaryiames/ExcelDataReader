@@ -1,6 +1,6 @@
 using System;
 
-namespace ExcelDataReader.Core.CompoundFormat
+namespace CrimsonTree.ExcelDataReader.Core.CompoundFormat
 {
     /// <summary>
     /// Represents single Root Directory record

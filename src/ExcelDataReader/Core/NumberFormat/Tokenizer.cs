@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExcelDataReader.Core.NumberFormat
+namespace CrimsonTree.ExcelDataReader.Core.NumberFormat
 {
     internal class Tokenizer
     {

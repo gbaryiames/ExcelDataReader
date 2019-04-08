@@ -7,7 +7,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 #endif
 
-namespace ExcelDataReader.Tests
+namespace CrimsonTree.ExcelDataReader.Tests
 {
     internal static class Configuration
     {

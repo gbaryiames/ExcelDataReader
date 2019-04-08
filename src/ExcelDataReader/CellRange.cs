@@ -1,7 +1,7 @@
 using System;
-using ExcelDataReader.Core;
+using CrimsonTree.ExcelDataReader.Core;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     /// <summary>
     /// A range for cells using 0 index positions. 

@@ -1,5 +1,5 @@
 ﻿#if NET20
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     /// <summary>
     /// Encapsulates a method that has one parameter and returns a value of the type specified by the TResult parameter.

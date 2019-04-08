@@ -1,10 +1,10 @@
 using System;
 using System.IO;
 using System.Security.Cryptography;
-using ExcelDataReader.Core.OfficeCrypto;
-using ExcelDataReader.Exceptions;
+using CrimsonTree.ExcelDataReader.Core.OfficeCrypto;
+using CrimsonTree.ExcelDataReader.Exceptions;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// Represents a BIFF stream

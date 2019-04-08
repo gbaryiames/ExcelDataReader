@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     /// <summary>
     /// ExcelDataReader DataSet extensions

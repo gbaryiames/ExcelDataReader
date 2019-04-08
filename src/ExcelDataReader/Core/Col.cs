@@ -1,4 +1,4 @@
-﻿namespace ExcelDataReader.Core
+﻿namespace CrimsonTree.ExcelDataReader.Core
 {
     internal class Col
     {

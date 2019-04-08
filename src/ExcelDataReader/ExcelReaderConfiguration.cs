@@ -1,9 +1,9 @@
 ﻿using System.Text;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     /// <summary>
-    /// Configuration options for an instance of ExcelDataReader.
+    /// Configuration options for an instance of CrimsonTree.ExcelDataReader.
     /// </summary>
     public class ExcelReaderConfiguration
     {

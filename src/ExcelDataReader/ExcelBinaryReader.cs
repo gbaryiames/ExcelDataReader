@@ -1,8 +1,8 @@
 using System.IO;
 using System.Text;
-using ExcelDataReader.Core.BinaryFormat;
+using CrimsonTree.ExcelDataReader.Core.BinaryFormat;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     /// <summary>
     /// ExcelDataReader Class

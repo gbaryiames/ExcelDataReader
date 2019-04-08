@@ -1,4 +1,4 @@
-﻿namespace ExcelDataReader
+﻿namespace CrimsonTree.ExcelDataReader
 {
     public class DataSet
     {

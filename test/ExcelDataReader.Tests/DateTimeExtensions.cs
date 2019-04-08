@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ExcelDataReader.Tests
+namespace CrimsonTree.ExcelDataReader.Tests
 {
     public static class DateTimeExtensions
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace ExcelDataReader.Core.OpenXmlFormat
+namespace CrimsonTree.ExcelDataReader.Core.OpenXmlFormat
 {
     internal sealed class XlsxHeaderFooter : XlsxElement
     {

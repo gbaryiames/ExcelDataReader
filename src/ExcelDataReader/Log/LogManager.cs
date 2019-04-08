@@ -1,4 +1,4 @@
-﻿namespace ExcelDataReader.Log
+﻿namespace CrimsonTree.ExcelDataReader.Log
 {
     /// <summary>
     /// 2.0 version of LogExtensions, not as awesome as Extension methods
@@ -14,7 +14,7 @@
         /// <remarks>This method is thread safe.</remarks>
         public static ILog Log<T>(T type)
         {
-            return ExcelDataReader.Log.Log.GetLoggerFor(typeof(T));
+            return CrimsonTree.ExcelDataReader.Log.Log.GetLoggerFor(typeof(T));
         }
     }
 }

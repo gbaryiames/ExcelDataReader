@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExcelDataReader.Misc
+namespace CrimsonTree.ExcelDataReader.Misc
 {
     internal static class DateTimeHelper
     {

@@ -1,4 +1,4 @@
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// Represents InterfaceHdr record in Wokrbook Globals

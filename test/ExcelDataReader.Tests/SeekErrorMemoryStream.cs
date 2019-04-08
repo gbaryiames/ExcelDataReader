@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace ExcelDataReader.Tests
+namespace CrimsonTree.ExcelDataReader.Tests
 {
     public class SeekErrorMemoryStream : MemoryStream
     {

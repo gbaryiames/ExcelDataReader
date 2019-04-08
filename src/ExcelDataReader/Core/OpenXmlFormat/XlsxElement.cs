@@ -1,4 +1,4 @@
-﻿namespace ExcelDataReader.Core.OpenXmlFormat
+﻿namespace CrimsonTree.ExcelDataReader.Core.OpenXmlFormat
 {
     /// <summary>
     /// Base class for worksheet stream elements

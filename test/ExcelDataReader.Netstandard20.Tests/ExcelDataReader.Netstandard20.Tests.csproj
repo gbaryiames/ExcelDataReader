@@ -8,6 +8,7 @@
     <PackageId>ExcelDataReader.Netstandard20.Tests</PackageId>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <CodeAnalysisRuleSet>..\..\ExcelDataReader.ruleset</CodeAnalysisRuleSet>
+    <RootNamespace>CrimsonTree.ExcelDataReader.Netstandard20.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,8 +27,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ExcelDataReader\ExcelDataReader.csproj" />
     <ProjectReference Include="..\..\src\ExcelDataReader.DataSet\ExcelDataReader.DataSet.csproj" />
+    <ProjectReference Include="..\..\src\ExcelDataReader\ExcelDataReader.csproj" />
   </ItemGroup>
 
   <ItemGroup>

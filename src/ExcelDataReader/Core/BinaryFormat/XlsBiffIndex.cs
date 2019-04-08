@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// Represents a worksheet index

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using ExcelDataReader.Core.NumberFormat;
+using CrimsonTree.ExcelDataReader.Core.NumberFormat;
 
-namespace ExcelDataReader.Core.CsvFormat
+namespace CrimsonTree.ExcelDataReader.Core.CsvFormat
 {
     internal class CsvWorksheet : IWorksheet
     {
@@ -46,7 +46,7 @@ namespace ExcelDataReader.Core.CsvFormat
 
         public CellRange[] MergeCells => null;
 
-        public int FieldCount { get; }
+        public int FieldCount { get;}
 
         public int RowCount { get; }
 
@@ -110,7 +110,7 @@ namespace ExcelDataReader.Core.CsvFormat
                     });
                 }
 
-                yield return new Row()
+				yield return new Row()
                 {
                     Height = 12.75, // 255 twips
                     Cells = cells,

@@ -2,9 +2,9 @@ using System;
 using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
-using ExcelDataReader.Misc;
+using CrimsonTree.ExcelDataReader.Misc;
 
-namespace ExcelDataReader.Core
+namespace CrimsonTree.ExcelDataReader.Core
 {
     /// <summary>
     /// Helpers class

@@ -2,7 +2,7 @@
 using System.IO;
 using System.Security.Cryptography;
 
-namespace ExcelDataReader.Core.OfficeCrypto
+namespace CrimsonTree.ExcelDataReader.Core.OfficeCrypto
 {
     /// <summary>
     /// Represents the binary RC4+MD5 encryption header used in XLS.

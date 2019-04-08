@@ -1,6 +1,6 @@
 using System;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// [MS-XLS] 2.5.293 XLUnicodeRichExtendedString

@@ -1,10 +1,10 @@
 ﻿using System;
 
-using ExcelDataReader.Log;
+using CrimsonTree.ExcelDataReader.Log;
 
 using NUnit.Framework;
 
-namespace ExcelDataReader.Tests
+namespace CrimsonTree.ExcelDataReader.Tests
 {
     public class NunitLogFactory : ILogFactory
     {

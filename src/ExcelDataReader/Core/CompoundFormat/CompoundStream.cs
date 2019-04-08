@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using ExcelDataReader.Exceptions;
+using CrimsonTree.ExcelDataReader.Exceptions;
 
-namespace ExcelDataReader.Core.CompoundFormat
+namespace CrimsonTree.ExcelDataReader.Core.CompoundFormat
 {
     internal class CompoundStream : Stream
     {

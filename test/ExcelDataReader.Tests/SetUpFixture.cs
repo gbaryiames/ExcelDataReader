@@ -4,7 +4,7 @@ using System.Text;
 
 using NUnit.Framework;
 
-namespace ExcelDataReader.Tests
+namespace CrimsonTree.ExcelDataReader.Tests
 {
     [SetUpFixture]
     public sealed class SetUpFixture

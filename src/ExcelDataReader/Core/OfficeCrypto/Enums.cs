@@ -1,4 +1,4 @@
-﻿namespace ExcelDataReader.Core.OfficeCrypto
+﻿namespace CrimsonTree.ExcelDataReader.Core.OfficeCrypto
 {
     internal enum CipherIdentifier
     {

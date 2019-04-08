@@ -5,7 +5,7 @@ using System.Collections.ObjectModel;
 using System.IO;
 using ICSharpCode.SharpZipLib.Zip;
 
-namespace ExcelDataReader.Core
+namespace CrimsonTree.ExcelDataReader.Core
 {
     internal sealed class ZipArchive : IDisposable
     {

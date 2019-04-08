@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ExcelDataReader.Core.CompoundFormat
+namespace CrimsonTree.ExcelDataReader.Core.CompoundFormat
 {
     /// <summary>
     /// Represents Excel file header

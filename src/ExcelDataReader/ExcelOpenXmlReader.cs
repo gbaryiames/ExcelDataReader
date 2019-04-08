@@ -1,8 +1,8 @@
 using System.IO;
-using ExcelDataReader.Core;
-using ExcelDataReader.Core.OpenXmlFormat;
+using CrimsonTree.ExcelDataReader.Core;
+using CrimsonTree.ExcelDataReader.Core.OpenXmlFormat;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     internal class ExcelOpenXmlReader : ExcelDataReader<XlsxWorkbook, XlsxWorksheet>
     {

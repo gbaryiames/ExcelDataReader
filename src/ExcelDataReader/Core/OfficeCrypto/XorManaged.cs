@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace ExcelDataReader.Core.OfficeCrypto
+namespace CrimsonTree.ExcelDataReader.Core.OfficeCrypto
 {
     /// <summary>
     /// Minimal Office "XOR Deobfuscation Method 1" implementation compatible

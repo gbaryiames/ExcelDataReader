@@ -4,7 +4,7 @@ using System.IO;
 using System.IO.Compression;
 #endif
 
-namespace ExcelDataReader.Core
+namespace CrimsonTree.ExcelDataReader.Core
 {
     internal partial class ZipWorker : IDisposable
     {

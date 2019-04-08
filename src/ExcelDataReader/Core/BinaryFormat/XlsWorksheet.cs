@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using ExcelDataReader.Core.NumberFormat;
-using ExcelDataReader.Log;
+using CrimsonTree.ExcelDataReader.Core.NumberFormat;
+using CrimsonTree.ExcelDataReader.Log;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// Represents Worksheet section in workbook

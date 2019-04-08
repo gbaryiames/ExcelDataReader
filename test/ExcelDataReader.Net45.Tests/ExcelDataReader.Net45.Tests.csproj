@@ -6,6 +6,7 @@
     <AssemblyName>ExcelDataReader.Net45.Tests</AssemblyName>
     <PackageId>ExcelDataReader.Net45.Tests</PackageId>
     <CodeAnalysisRuleSet>..\..\ExcelDataReader.ruleset</CodeAnalysisRuleSet>
+    <RootNamespace>CrimsonTree.ExcelDataReader.Net45.Tests</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\ExcelDataReader.Tests\AssertUtilities.cs" Link="AssertUtilities.cs" />

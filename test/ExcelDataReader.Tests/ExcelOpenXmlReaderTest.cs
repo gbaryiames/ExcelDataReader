@@ -5,7 +5,7 @@ using System.IO;
 #if NET20 || NET45 || NETCOREAPP2_0
 using System.Data;
 #endif
-using ExcelDataReader.Tests;
+using CrimsonTree.ExcelDataReader.Tests;
 
 using NUnit.Framework;
 using TestClass = NUnit.Framework.TestFixtureAttribute;
@@ -14,13 +14,13 @@ using TestInitialize = NUnit.Framework.SetUpAttribute;
 using TestMethod = NUnit.Framework.TestAttribute;
 
 #if EXCELDATAREADER_NET20
-namespace ExcelDataReader.Net20.Tests
+namespace CrimsonTree.ExcelDataReader.Net20.Tests
 #elif NET45
-namespace ExcelDataReader.Net45.Tests
+namespace CrimsonTree.ExcelDataReader.Net45.Tests
 #elif NETCOREAPP1_0
-namespace ExcelDataReader.Netstandard13.Tests
+namespace CrimsonTree.ExcelDataReader.Netstandard13.Tests
 #elif NETCOREAPP2_0
-namespace ExcelDataReader.Netstandard20.Tests
+namespace CrimsonTree.ExcelDataReader.Netstandard20.Tests
 #else
 #error "Tests do not support the selected target platform"
 #endif

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using ExcelDataReader.Core;
+using CrimsonTree.ExcelDataReader.Core;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     /// <summary>
     /// A generic implementation of the IExcelDataReader interface using IWorkbook/IWorksheet to enumerate data.

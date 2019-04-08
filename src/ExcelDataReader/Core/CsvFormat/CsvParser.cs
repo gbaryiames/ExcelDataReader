@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExcelDataReader.Core.CsvFormat
+namespace CrimsonTree.ExcelDataReader.Core.CsvFormat
 {
     /// <summary>
     /// Low level, reentrant CSV parser. Call ParseBuffer() in a loop, and finally Flush() to empty the internal buffers.

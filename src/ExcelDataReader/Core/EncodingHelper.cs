@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace ExcelDataReader.Core
+namespace CrimsonTree.ExcelDataReader.Core
 {
     internal class EncodingHelper
     {

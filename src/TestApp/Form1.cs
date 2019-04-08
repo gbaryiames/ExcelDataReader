@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Windows.Forms;
-using ExcelDataReader;
+using CrimsonTree.ExcelDataReader;
 using System.Diagnostics;
+using System.Text;
 
 namespace TestApp
 {
@@ -242,7 +243,11 @@ namespace TestApp
                 }
                 else if (extension == ".csv")
                 {
-                    reader = ExcelReaderFactory.CreateCsvReader(stream);
+	                var config = new ExcelReaderConfiguration
+	                {
+		                FallbackEncoding = Encoding.UTF8, AutodetectSeparators = new[] {','}
+	                };
+					reader = ExcelReaderFactory.CreateCsvReader(stream, config);
                 }
 
                 if (reader == null)

@@ -1,11 +1,11 @@
 using System.IO;
-using ExcelDataReader.Core.BinaryFormat;
-using ExcelDataReader.Core.CompoundFormat;
-using ExcelDataReader.Core.OfficeCrypto;
-using ExcelDataReader.Exceptions;
-using ExcelDataReader.Misc;
+using CrimsonTree.ExcelDataReader.Core.BinaryFormat;
+using CrimsonTree.ExcelDataReader.Core.CompoundFormat;
+using CrimsonTree.ExcelDataReader.Core.OfficeCrypto;
+using CrimsonTree.ExcelDataReader.Exceptions;
+using CrimsonTree.ExcelDataReader.Misc;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     /// <summary>
     /// The ExcelReader Factory

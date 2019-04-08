@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using ExcelDataReader.Core.NumberFormat;
-using ExcelDataReader.Core.OfficeCrypto;
-using ExcelDataReader.Exceptions;
+using CrimsonTree.ExcelDataReader.Core.NumberFormat;
+using CrimsonTree.ExcelDataReader.Core.OfficeCrypto;
+using CrimsonTree.ExcelDataReader.Exceptions;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// Represents Globals section of workbook

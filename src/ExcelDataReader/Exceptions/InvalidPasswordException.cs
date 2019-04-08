@@ -1,4 +1,4 @@
-﻿namespace ExcelDataReader.Exceptions
+﻿namespace CrimsonTree.ExcelDataReader.Exceptions
 {
     /// <summary>
     /// Thrown when ExcelDataReader cannot open a password protected document because the password

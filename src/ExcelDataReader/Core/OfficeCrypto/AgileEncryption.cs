@@ -3,7 +3,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Xml;
 
-namespace ExcelDataReader.Core.OfficeCrypto
+namespace CrimsonTree.ExcelDataReader.Core.OfficeCrypto
 {
     /// <summary>
     /// Represents "Agile Encryption" used in XLSX (Office 2010 and newer)

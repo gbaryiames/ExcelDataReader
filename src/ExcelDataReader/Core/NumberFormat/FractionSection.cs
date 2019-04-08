@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace ExcelDataReader.Core.NumberFormat
+namespace CrimsonTree.ExcelDataReader.Core.NumberFormat
 {
     internal class FractionSection
     {

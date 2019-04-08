@@ -1,6 +1,6 @@
 using System.Data;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     /// <summary>
     /// The ExcelDataReader interface

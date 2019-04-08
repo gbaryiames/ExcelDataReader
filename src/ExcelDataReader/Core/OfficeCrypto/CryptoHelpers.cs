@@ -2,7 +2,7 @@
 using System.IO;
 using System.Security.Cryptography;
 
-namespace ExcelDataReader.Core.OfficeCrypto
+namespace CrimsonTree.ExcelDataReader.Core.OfficeCrypto
 {
     internal static class CryptoHelpers
     {

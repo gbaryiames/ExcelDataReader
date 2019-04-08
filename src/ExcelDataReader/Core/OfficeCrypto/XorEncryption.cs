@@ -2,7 +2,7 @@
 using System.IO;
 using System.Security.Cryptography;
 
-namespace ExcelDataReader.Core.OfficeCrypto
+namespace CrimsonTree.ExcelDataReader.Core.OfficeCrypto
 {
     /// <summary>
     /// Represents "XOR Deobfucation Method 1" used in XLS.

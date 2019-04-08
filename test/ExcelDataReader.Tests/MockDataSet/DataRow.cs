@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     public class DataRow
     {

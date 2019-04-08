@@ -3,7 +3,7 @@
 using System.Runtime.Serialization;
 #endif
 
-namespace ExcelDataReader.Exceptions
+namespace CrimsonTree.ExcelDataReader.Exceptions
 {
     /// <summary>
     /// Base class for exceptions thrown by ExcelDataReader

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// Represents cell-indexing record, finishes each row values block

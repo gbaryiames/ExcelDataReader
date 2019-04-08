@@ -1,5 +1,5 @@
 // ReSharper disable InconsistentNaming
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     internal enum BIFFTYPE : ushort
     {

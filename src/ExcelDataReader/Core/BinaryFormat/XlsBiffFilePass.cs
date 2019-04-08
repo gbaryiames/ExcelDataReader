@@ -1,7 +1,7 @@
 using System;
-using ExcelDataReader.Core.OfficeCrypto;
+using CrimsonTree.ExcelDataReader.Core.OfficeCrypto;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// Represents FILEPASS record containing XOR obfuscation details or a an EncryptionInfo structure

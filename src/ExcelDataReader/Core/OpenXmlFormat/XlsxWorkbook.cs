@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Xml;
 
-namespace ExcelDataReader.Core.OpenXmlFormat
+namespace CrimsonTree.ExcelDataReader.Core.OpenXmlFormat
 {
     internal class XlsxWorkbook : CommonWorkbook, IWorkbook<XlsxWorksheet>
     {

@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// Represents basic BIFF record

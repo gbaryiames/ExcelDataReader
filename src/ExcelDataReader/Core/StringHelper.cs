@@ -1,6 +1,6 @@
 ﻿/*using System.Text;
 
-namespace ExcelDataReader.Core
+namespace CrimsonTree.ExcelDataReader.Core
 {
     public static class StringHelper
     {

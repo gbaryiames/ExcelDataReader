@@ -7,7 +7,7 @@ using TestClass = NUnit.Framework.TestFixtureAttribute;
 using TestMethod = NUnit.Framework.TestAttribute;
 
 // ReSharper disable InconsistentNaming
-namespace ExcelDataReader.Tests
+namespace CrimsonTree.ExcelDataReader.Tests
 {
     [TestClass]
     public class ExcelOpenXmlReaderLocaleTest

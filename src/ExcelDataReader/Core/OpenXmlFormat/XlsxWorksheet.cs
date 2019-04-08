@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Xml;
-using ExcelDataReader.Core.NumberFormat;
+using CrimsonTree.ExcelDataReader.Core.NumberFormat;
 
-namespace ExcelDataReader.Core.OpenXmlFormat
+namespace CrimsonTree.ExcelDataReader.Core.OpenXmlFormat
 {
     internal class XlsxWorksheet : IWorksheet
     {

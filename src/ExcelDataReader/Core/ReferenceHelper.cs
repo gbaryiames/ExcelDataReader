@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace ExcelDataReader.Core
+namespace CrimsonTree.ExcelDataReader.Core
 {
     internal static class ReferenceHelper
     {

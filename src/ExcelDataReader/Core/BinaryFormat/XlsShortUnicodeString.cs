@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace ExcelDataReader.Core.BinaryFormat
+namespace CrimsonTree.ExcelDataReader.Core.BinaryFormat
 {
     /// <summary>
     /// [MS-XLS] 2.5.240 ShortXLUnicodeString

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using ExcelDataReader.Core.NumberFormat;
+using CrimsonTree.ExcelDataReader.Core.NumberFormat;
 
-namespace ExcelDataReader.Core
+namespace CrimsonTree.ExcelDataReader.Core
 {
     internal static class BuiltinNumberFormat
     {

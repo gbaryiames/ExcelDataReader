@@ -1,6 +1,6 @@
 using System;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     /// <summary>
     /// Header and footer text. 

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ExcelDataReader.Core.NumberFormat
+namespace CrimsonTree.ExcelDataReader.Core.NumberFormat
 {
     /// <summary>
     /// Parse ECMA-376 number format strings from Excel and other spreadsheet softwares.

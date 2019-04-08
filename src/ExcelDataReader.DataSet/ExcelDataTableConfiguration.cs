@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExcelDataReader
+namespace CrimsonTree.ExcelDataReader
 {
     /// <summary>
     /// Processing configuration options and callbacks for AsDataTable().
