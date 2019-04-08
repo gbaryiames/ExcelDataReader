@@ -28,6 +28,14 @@ namespace ExcelDataReader.Core.CsvFormat
             {
                 separators = new char[] { '\0' };
             }
+			else if (separators.Length == 1)
+            {
+	            autodetectSeparator = separators[0];
+	            fieldCount = -1;
+	            rowCount = -1;
+	            return;
+            }
+			
 
             var separatorInfos = new SeparatorInfo[separators.Length];
             for (var i = 0; i < separators.Length; i++)
